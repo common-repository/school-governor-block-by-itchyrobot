@@ -1,0 +1,34 @@
+.list-table.sortable-table.governors tbody tr:first-child td {
+    color:unset !important;
+}
+
+.list-table.sortable-table.governors tbody tr:first-child {
+    background-color:unset !important;
+}
+
+
+.is-root-container .govuk-visually-hidden {
+    display:none;
+}
+
+
+.is-root-container .govuk-table {
+    border: solid 1px #DDEEEE;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font: normal 13px Arial, sans-serif;
+}
+.is-root-container .govuk-table thead th {
+    background-color: #DDEFEF;
+    border: solid 1px #DDEEEE;
+    color: #336B6B;
+    padding: 10px;
+    text-align: left;
+    text-shadow: 1px 1px 1px #fff;
+}
+.is-root-container .govuk-table tbody td {
+    border: solid 1px #DDEEEE;
+    color: #333;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #fff;
+}
